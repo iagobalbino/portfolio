@@ -1,22 +1,31 @@
 import styled from 'styled-components';
 
-const StyledNav = styled.nav`
+const StyledHeader = styled.header`
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  list-style: none
+  justify-content: space-between;
+  margin: 0 12px 0 12px;
+  width: 580px;
+  height: 76px;
+
+  ul li {
+    display: inline-block;
+    margin: 0 12px 0 12px;
+  }
 `;
 
 const Header = () => {
 
   return (
-    <header>
-      <StyledNav>
-        <li>Iago Balbino</li>
-        <li>Projetos</li>
-        <li>Sobre</li>
-      </StyledNav>
-    </header>
+    <StyledHeader>
+      <h1>Iago Balbino</h1>
+      <nav>
+        <ul>
+          <li>Projetos</li>
+          <li>Sobre</li>
+        </ul>
+      </nav>
+    </StyledHeader>
   );
 };
 
