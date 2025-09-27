@@ -4,13 +4,13 @@ import device from '../Device';
 const StyledNav = styled.nav`
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  gap: 2;
+  justify-content: space-between;
+  gap: 20px;
   list-style: none;
-  padding: 8px;
+  padding: 25.6px;
 
-  li {
-    margin: 20px;
+  li:first-child {
+    color: rgba(0, 0, 0, 0.87);
   }
 
   /* @media (max-width:${device.md}) {
@@ -20,14 +20,12 @@ const StyledNav = styled.nav`
   } */
 `;
 
-const Header = () => {
+const Header = ({ itens }) => {
 
   return (
     <header>
       <StyledNav>
-        <li>Iago Balbino</li>
-        <li>Projetos</li>
-        <li>Sobre</li>
+        {itens.map(item => <li><a>{item}</a></li>)}
       </StyledNav>
     </header>
   );
