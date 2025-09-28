@@ -4,7 +4,7 @@ const StyledDiv = styled.div`
   width: 524.81px;
   height: 142.63px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 
   span {
@@ -35,7 +35,7 @@ const ProjectCard = ({ year, cardTitle, cardInfo, href, src, alt }) => {
         <h6>{cardTitle}</h6>
         <p>{cardInfo}</p>
       </div>
-      <a href={href}>
+      <a href={href} target="_blank">
         <img src={src} alt={alt} />
       </a>
     </StyledDiv>
