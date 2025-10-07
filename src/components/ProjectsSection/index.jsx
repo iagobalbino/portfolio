@@ -2,7 +2,7 @@ import styled from "styled-components";
 import ProjectCard from "./ProjectCard";
 
 const StyledProjectsSection = styled.section`
-  padding: 25.6px;
+  /* padding: 25.6px; */
 
   h6 {
     margin: 6.4px 0;

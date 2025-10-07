@@ -8,9 +8,12 @@ const Home = () => {
     <div>
       <Container>
         <Header
-          itens={['Iago Balbino', 'Projetos', 'Sobre', 'Redes sociais']}
+          name={'Iago Balbino'}
+          itens={['Projetos', 'Sobre', 'Redes sociais']}
         />
         <Bio
+          img={'https://avatars.githubusercontent.com/u/42919327?v=4'}
+          alt={'Foto Iago Balbino'}
           title={'Eu crio sistemas'}
           bio={'Oi, me chamo Iago, e sou um profissional de TI em transição de carreira. Atualmente busco ganhar experiência como desenvolvedor freelance, abaixo estão alguns dos meus projetos.'}
         />
