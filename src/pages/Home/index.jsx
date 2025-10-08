@@ -1,17 +1,13 @@
-import Bio from "../Bio";
-import Contact from "../Contact";
-import Container from "../Container";
-import Header from "../Header";
-import Projects from "../ProjectsSection";
+import Bio from "../../components/Bio";
+import Contact from "../../components/Contact";
+import Container from "../../components/Container";
+import Header from "../../components/Header";
+import Projects from "../../components/ProjectsSection";
 
 const Home = () => {
   return (
     <div>
       <Container>
-        <Header
-          name={'Iago Balbino'}
-          itens={['Projetos', 'Sobre', 'Redes sociais']}
-        />
         <Bio
           img={'https://avatars.githubusercontent.com/u/42919327?v=4'}
           alt={'Foto Iago Balbino'}

@@ -13,12 +13,13 @@ const StyledDiv = styled.div`
   }
 
   h6 {
-   color: rgba(0, 0, 0, 0.87);
+   color: #000000de;
    margin: 6.4px 0;
   }
 
   p {
    color: rgba(0, 0, 0, 0.60);
+   /* color: #00000061; */
    margin: 6.4px 0;
   }
 

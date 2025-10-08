@@ -1,12 +1,18 @@
 import { BrowserRouter, Routes, Route } from 'react-router'
 import './App.css'
-import Home from './components/Home'
-import Projects from './components/Projects'
+import Home from './pages/Home'
+import Projects from './pages/Projects'
+import Header from './components/Header'
+import Container from './components/Container'
 
-function App() {
+function AppRoutes() {
 
   return (
     <BrowserRouter>
+      <Container>
+        <Header />
+      </Container>
+
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/projetos' element={<Projects />} />
@@ -16,4 +22,4 @@ function App() {
   )
 }
 
-export default App
+export default AppRoutes

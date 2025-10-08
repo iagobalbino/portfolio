@@ -1,4 +1,6 @@
+import { Link } from "react-router";
 import styled from "styled-components";
+import Home from "../../pages/Home";
 
 const Bio = ({ title, bio, img, alt }) => {
   const StyledSection = styled.section`
@@ -33,7 +35,7 @@ const Bio = ({ title, bio, img, alt }) => {
         <h5>{title}</h5>
         <p>{bio}</p>
       </div>
-    </StyledSection>
+    </StyledSection >
   );
 };
 

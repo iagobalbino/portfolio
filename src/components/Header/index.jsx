@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import MenuLink from '../MenuLink';
 
 const StyledHeader = styled.header`
   display: flex;
@@ -22,14 +23,32 @@ const StyledHeader = styled.header`
   }
 `;
 
-const Header = ({ name, itens }) => {
+const Header = () => {
 
   return (
     <StyledHeader>
-      <h1>{name}</h1>
+      <h1>
+        <MenuLink to='/'>
+          Iago Balbino
+        </MenuLink>
+      </h1>
       <nav>
         <ul>
-          {itens.map(item => <li>{item}</li>)}
+          <li>
+            <MenuLink to='/projects'>
+              Projetos
+            </MenuLink>
+          </li>
+          <li>
+            <MenuLink to='/social'>
+              Redes Sociais
+            </MenuLink>
+          </li>
+          <li>
+            <MenuLink to='/about'>
+              Sobre
+            </MenuLink>
+          </li>
         </ul>
       </nav>
     </StyledHeader>
