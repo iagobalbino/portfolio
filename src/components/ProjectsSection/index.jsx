@@ -2,10 +2,15 @@ import styled from "styled-components";
 import ProjectCard from "./ProjectCard";
 
 const StyledProjectsSection = styled.section`
-  /* padding: 25.6px; */
+  padding: 25.6px;
 
-  h6 {
+  h6, a {
     margin: 6.4px 0;
+    color: #000000de;
+  }
+
+  .all-projects {
+    margin-top: 3.2rem;
   }
 `;
 
@@ -20,6 +25,9 @@ const ProjectsSection = () => {
         href={'http://guetoboxe.com.br/'}
         src={'https://github.com/iagobalbino/gueto-boxe/raw/main/images/logo.png'}
       />
+      <div className="all-projects">
+        <a href="">Ver todos os projetos →</a>
+      </div>
     </StyledProjectsSection>
   );
 };

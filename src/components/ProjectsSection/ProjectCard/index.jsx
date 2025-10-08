@@ -6,6 +6,7 @@ const StyledDiv = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 3.2rem;
 
   span {
     color: rgba(0, 0, 0, 0.38);

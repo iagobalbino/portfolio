@@ -4,6 +4,8 @@ const Bio = ({ title, bio, img, alt }) => {
   const StyledSection = styled.section`
     margin-top: 24px;
     width: 576px;
+    padding: 25.6px;
+
 
     img {
       border-radius: 100%;

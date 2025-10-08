@@ -1,4 +1,5 @@
 import Bio from "../Bio";
+import Contact from "../Contact";
 import Container from "../Container";
 import Header from "../Header";
 import Projects from "../ProjectsSection";
@@ -18,6 +19,7 @@ const Home = () => {
           bio={'Oi, me chamo Iago, e sou um profissional de TI em transição de carreira. Atualmente busco ganhar experiência como desenvolvedor freelance, abaixo estão alguns dos meus projetos.'}
         />
         <Projects />
+        <Contact />
       </Container>
     </div>
   );
