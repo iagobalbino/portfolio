@@ -11,7 +11,7 @@ const Home = () => {
         <Bio
           img={'https://avatars.githubusercontent.com/u/42919327?v=4'}
           alt={'Foto Iago Balbino'}
-          title={'Eu crio sistemas'}
+          title={'Oi, eu sou um desenvolvedor'}
           bio={'Oi, me chamo Iago, e sou um profissional de TI em transição de carreira. Atualmente busco ganhar experiência como desenvolvedor freelance, abaixo estão alguns dos meus projetos.'}
         />
         <Projects />
