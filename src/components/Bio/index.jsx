@@ -1,6 +1,7 @@
 import { Link } from "react-router";
 import styled from "styled-components";
 import Home from "../../pages/Home";
+import { device } from "../Breakpoints";
 
 const Bio = ({ title, bio, img, alt }) => {
   const StyledSection = styled.section`
@@ -24,7 +25,13 @@ const Bio = ({ title, bio, img, alt }) => {
 
     p {
       margin: 6.4px 0 12.8px;
-    }
+      }
+
+      /* @media (max-width: ${device.sm}) {
+        p {
+          color: blue;
+        }
+      } */
   `;
 
 

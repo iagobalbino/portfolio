@@ -1,10 +1,11 @@
 import styled from "styled-components";
 import ProjectCard from "./ProjectCard";
+import Title from "../Title";
 
 const StyledProjectsSection = styled.section`
   padding: 25.6px;
 
-  h6, a {
+  a {
     margin: 6.4px 0;
     color: #000000de;
   }
@@ -17,7 +18,6 @@ const StyledProjectsSection = styled.section`
 const ProjectsSection = () => {
   return (
     <StyledProjectsSection>
-      <h6>Projetos</h6>
       <ProjectCard
         year={'2025'}
         cardTitle={'Gueto Boxe'}

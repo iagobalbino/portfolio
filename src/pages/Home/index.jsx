@@ -1,8 +1,7 @@
 import Bio from "../../components/Bio";
 import Contact from "../../components/Contact";
 import Container from "../../components/Container";
-import Header from "../../components/Header";
-import Projects from "../../components/ProjectsSection";
+import ProjectsSection from "../../components/ProjectsSection";
 
 const Home = () => {
   return (
@@ -14,7 +13,9 @@ const Home = () => {
           title={'Oi, eu sou um desenvolvedor'}
           bio={'Oi, me chamo Iago, e sou um profissional de TI em transição de carreira. Atualmente busco ganhar experiência como desenvolvedor freelance, abaixo estão alguns dos meus projetos.'}
         />
-        <Projects />
+
+        <h6 style={{ padding: '25.6px', color: '#000000de' }}>Projetos</h6>
+        <ProjectsSection />
         <Contact />
       </Container>
     </div>

@@ -14,6 +14,7 @@ const StyledMenuLink = styled.div`
 
 const MenuLink = ({ children, to }) => {
   const location = useLocation();
+  console.log(location)
 
   return (
     <StyledMenuLink>

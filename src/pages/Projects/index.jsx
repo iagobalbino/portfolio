@@ -1,9 +1,17 @@
+import Container from "../../components/Container";
+import ProjectsSection from "../../components/ProjectsSection";
+import ProjectCard from "../../components/ProjectsSection/ProjectCard";
+import Title from "../../components/Title";
+
 const Projects = () => {
 
   return (
-    <div>
-      <h1>Projetos</h1>
-    </div>
+    <Container>
+      <Title
+        title={'Projetos'}
+      />
+      <ProjectsSection />
+    </Container>
   );
 };
 
