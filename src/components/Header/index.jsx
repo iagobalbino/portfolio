@@ -1,11 +1,12 @@
 import styled from 'styled-components';
 import MenuLink from '../MenuLink';
+import { device } from '../Breakpoints';
 
 const StyledHeader = styled.header`
+  /* animation: nav-load 1s ease-in-out; */
+  max-width: 33rem;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
-  gap: 20px;
   gap: 2;
   padding: 25.6px;
 
@@ -20,6 +21,20 @@ const StyledHeader = styled.header`
 
   li {
     margin-right: 3.2rem;
+  }
+
+  @media (max-width:${device.sm}){
+    text-align: right;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    h1 {
+      margin-right: 50px;
+    }
+
+    h1, li {
+      font-size: 1.2rem;
+    }
   }
 `;
 

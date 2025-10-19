@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import ProjectCard from "./ProjectCard";
-import Title from "../Title";
 
 const StyledProjectsSection = styled.section`
   padding: 25.6px;
@@ -13,6 +12,7 @@ const StyledProjectsSection = styled.section`
   .all-projects {
     margin-top: 3.2rem;
   }
+
 `;
 
 const ProjectsSection = () => {
@@ -22,12 +22,9 @@ const ProjectsSection = () => {
         year={'2025'}
         cardTitle={'Gueto Boxe'}
         cardInfo={'Site institucional para a Academia de Boxe Gueto'}
-        href={'http://guetoboxe.com.br/'}
+        href={'https://guetoboxe.com.br/'}
         src={'https://github.com/iagobalbino/gueto-boxe/raw/main/images/logo.png'}
       />
-      <div className="all-projects">
-        <a href="">Ver todos os projetos →</a>
-      </div>
     </StyledProjectsSection>
   );
 };

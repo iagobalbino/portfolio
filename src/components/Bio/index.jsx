@@ -5,6 +5,7 @@ import { device } from "../Breakpoints";
 
 const Bio = ({ title, bio, img, alt }) => {
   const StyledSection = styled.section`
+    box-sizing: border-box;
     margin-top: 24px;
     width: 576px;
     padding: 25.6px;
@@ -27,11 +28,13 @@ const Bio = ({ title, bio, img, alt }) => {
       margin: 6.4px 0 12.8px;
       }
 
-      /* @media (max-width: ${device.sm}) {
+      @media (max-width: ${device.sm}) {
+        max-width: 528px;
         p {
-          color: blue;
+          font-size: 1.2rem;
+          /* line-height: 1.2; */
         }
-      } */
+      }
   `;
 
 
