@@ -55,11 +55,6 @@ const Header = () => {
             </MenuLink>
           </li>
           <li>
-            <MenuLink to='/social'>
-              Redes Sociais
-            </MenuLink>
-          </li>
-          <li>
             <MenuLink to='/about'>
               Sobre
             </MenuLink>

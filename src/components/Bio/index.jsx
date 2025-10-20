@@ -7,7 +7,7 @@ const Bio = ({ title, bio, img, alt }) => {
   const StyledSection = styled.section`
     box-sizing: border-box;
     margin-top: 24px;
-    width: 576px;
+    max-width: 33rem;
     padding: 25.6px;
 
 
@@ -29,7 +29,7 @@ const Bio = ({ title, bio, img, alt }) => {
       }
 
       @media (max-width: ${device.sm}) {
-        max-width: 528px;
+        max-width: 33rem;
         p {
           font-size: 1.2rem;
           /* line-height: 1.2; */

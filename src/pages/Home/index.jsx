@@ -16,7 +16,7 @@ const Home = () => {
           bio={'Oi, me chamo Iago, e sou um profissional de TI em transição de carreira. Atualmente busco ganhar experiência como desenvolvedor freelance, abaixo estão alguns dos meus projetos.'}
         />
 
-        <h6 style={{ padding: '25.6px', color: '#000000de' }}>Projetos</h6>
+        <h6 style={{ fontSize: '1.2rem', padding: '25.6px', color: '#000000de' }}>Projetos</h6>
         <ProjectsSection />
         <div style={{ marginTop: '3.2rem', padding: '25.6px' }}>
           <Link style={{ margin: '6.4px 0', color: '#000000de' }} to={'/projects'}>Ver todos os projetos →</Link>

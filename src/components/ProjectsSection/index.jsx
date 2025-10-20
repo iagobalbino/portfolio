@@ -23,7 +23,7 @@ const ProjectsSection = () => {
         cardTitle={'Gueto Boxe'}
         cardInfo={'Site institucional para a Academia de Boxe Gueto'}
         href={'https://guetoboxe.com.br/'}
-        src={'https://github.com/iagobalbino/gueto-boxe/raw/main/images/logo.png'}
+        src={'src/assets/gueto_boxe.png'}
       />
     </StyledProjectsSection>
   );

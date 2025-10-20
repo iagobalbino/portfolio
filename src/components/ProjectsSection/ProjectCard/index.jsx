@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { device } from "../../Breakpoints";
 
 const StyledDiv = styled.div`
-  width: 524.81px;
+  max-width: 33rem;
   /* height: 142.63px; */
   display: flex;
   justify-content: space-between;
@@ -25,9 +25,11 @@ const StyledDiv = styled.div`
   }
 
   img {
-    width: 142.63px;
-    height: 142.63px;
+    width: 100%;
+    /* height: 520px; */
+    aspect-ratio: 1 / 1;
   }
+  
 
   @media (max-width:${device.sm}) {
     flex-direction: column-reverse;
@@ -37,10 +39,7 @@ const StyledDiv = styled.div`
       font-size: 1.2rem;
     }
   
-    img {
-    width: 520px;
-    height: 520px;
-  }
+
   }
 `;
 
