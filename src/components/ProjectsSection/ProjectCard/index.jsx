@@ -1,8 +1,9 @@
 import styled from "styled-components";
+import { device } from "../../Breakpoints";
 
 const StyledDiv = styled.div`
   width: 524.81px;
-  height: 142.63px;
+  /* height: 142.63px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -26,6 +27,20 @@ const StyledDiv = styled.div`
   img {
     width: 142.63px;
     height: 142.63px;
+  }
+
+  @media (max-width:${device.sm}) {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+
+    h6, p {
+      font-size: 1.2rem;
+    }
+  
+    img {
+    width: 520px;
+    height: 520px;
+  }
   }
 `;
 
