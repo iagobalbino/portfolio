@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import ProjectCard from "./ProjectCard";
+import gueto_boxe from '../../assets/gueto_boxe.png'
 
 const StyledProjectsSection = styled.section`
   padding: 25.6px;
@@ -23,7 +24,7 @@ const ProjectsSection = () => {
         cardTitle={'Gueto Boxe'}
         cardInfo={'Site institucional para a Academia de Boxe Gueto'}
         href={'https://guetoboxe.com.br/'}
-        src={'src/assets/gueto_boxe.png'}
+        src={gueto_boxe}
       />
     </StyledProjectsSection>
   );

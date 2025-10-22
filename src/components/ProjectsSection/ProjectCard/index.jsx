@@ -25,9 +25,10 @@ const StyledDiv = styled.div`
   }
 
   img {
-    width: 100%;
+    width: 142px;
     /* height: 520px; */
     aspect-ratio: 1 / 1;
+    border-radius: 1.5rem;
   }
   
 
@@ -39,7 +40,9 @@ const StyledDiv = styled.div`
       font-size: 1.2rem;
     }
   
-
+    img {
+      width: 520px;
+    }
   }
 `;
 
