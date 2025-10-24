@@ -41,7 +41,7 @@ const StyledDiv = styled.div`
     }
   
     img {
-      width: 520px;
+      width: 360px;
     }
   }
 `;
