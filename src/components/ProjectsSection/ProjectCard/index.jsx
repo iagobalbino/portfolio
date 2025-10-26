@@ -33,7 +33,7 @@ const StyledDiv = styled.div`
   
 
   @media (max-width:${device.sm}) {
-    flex-direction: column-reverse;
+    flex-direction: column;
     align-items: flex-start;
 
     h6, p {
