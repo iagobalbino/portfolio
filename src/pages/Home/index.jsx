@@ -4,6 +4,7 @@ import Contact from "../../components/Contact";
 import Container from "../../components/Container";
 import MenuLink from "../../components/MenuLink";
 import ProjectsSection from "../../components/ProjectsSection";
+import Footer from "../../components/Footer";
 
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
           <Link style={{ margin: '6.4px 0', color: '#000000de' }} to={'/projects'}>Ver todos os projetos →</Link>
         </div>
         <Contact />
+        <Footer href={'https://www.spikeyuan.com/'} author={"Design inspired by Spike Yuan's portfolio"} />
       </Container>
     </div>
   );
