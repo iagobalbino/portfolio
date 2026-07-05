@@ -14,7 +14,7 @@ const Home = () => {
           img={'https://avatars.githubusercontent.com/u/42919327?v=4'}
           alt={'Foto Iago Balbino'}
           title={'Oi, eu sou Iago Balbino'}
-          bio={'Oi, me chamo Iago, e sou um profissional de TI em transição de carreira para Infrasestrutura Cloud. Aproveitando que está aqui, veja os meus projetos.'}
+          bio={'Sou um profissional de TI em transição de carreira para Infrasestrutura Cloud. Aproveitando que está aqui, veja os meus projetos.'}
         />
 
         <h6 style={{ fontSize: '1.2rem', padding: '25.6px', color: '#000000de' }}>Projetos</h6>
