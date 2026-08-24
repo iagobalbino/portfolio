@@ -33,9 +33,8 @@ jobs:
     - name: Configure AWS Credentials
       uses: aws-actions/configure-aws-credentials@v6.2.3
       with:
-        role-to-assume: s3-full-access-role
-        aws-region: us-east-1
         role-to-assume: arn:aws:iam::848685497146:role/s3-full-acess-role
+        aws-region: us-east-1
     - name: Additional steps
       run: |
         # Your commands that require AWS credentials
