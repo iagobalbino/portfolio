@@ -35,6 +35,7 @@ jobs:
       with:
         role-to-assume: s3-full-access-role
         aws-region: us-east-1
+        role-to-asume: arn:aws:iam::848685497146:role/s3-full-acess-role
     - name: Additional steps
       run: |
         # Your commands that require AWS credentials
