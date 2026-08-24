@@ -41,8 +41,6 @@ jobs:
         # Your commands that require AWS credentials
         aws sts get-caller-identity
 
-    uses: actions/checkout@master
-
     uses: shallwefootball/s3-upload-action@master
     with:
       aws_bucket: arn:aws:s3:::test-portfolio-848685497146-us-east-1-an
