@@ -35,10 +35,17 @@ jobs:
       with:
         role-to-assume: arn:aws:iam::848685497146:role/github-oidc
         aws-region: us-east-1
-    - name: Additional steps
+    
+    - name: Deploy to s3
       run: |
         # Your commands that require AWS credentials
         aws sts get-caller-identity
-    
-    - name: Deploy to s3
-      run: yarn build
+
+    uses: actions/checkout@master
+
+    uses: shallwefootball/s3-upload-action@master
+    with:
+      aws_bucket: arn:aws:s3:::test-portfolio-848685497146-us-east-1-an
+      source_dir: '' 
+
+
