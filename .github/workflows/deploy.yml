@@ -41,4 +41,4 @@ jobs:
         aws sts get-caller-identity
     
     - name: Deploy to s3
-      run: yarn run deploy
+      run: yarn build
